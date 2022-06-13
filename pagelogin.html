@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" type="4.png" href="4.png">
+	<title>website layout with image galley</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		body{
+			font-family: robort;
+		}
+		h1,h2,h3,h4,h5,h6{
+			font-family: 'nova round',cursive;
+		}
+		.wrap{
+			background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(back.jpg);
+			background-position: center;
+			background-size: cover;
+			min-height: 100vh;
+			overflow: hidden;
+			background-blend-mode: overlay;
+
+		}
+		header{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 25px 80px;
+			background: linear-gradient(to top,transparent, rgba(0,0,0,0.6));
+		}
+header.menu{
+			float: left;
+			margin-top: 5px;
+			margin-right: 180px; 
+		}
+.gg{
+margin-top:1 0px;
+margin-right: 50px; 
+			float: right;
+		}
+		 ul {
+			float: right;
+	list-style-type: none;
+	margin-top: 25px;
+		border-radius: 20%;
+		margin-right: 180px;
+			
+		}
+		ul li {
+				display: inline-block;
+
+         
+		}
+		ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 1px 20px;
+	border: 5px solid #fff;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color:#000;
+}
+ul li a.active a{
+	background-color: #fff;   
+	color: #000;
+}
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+    border-radius: 30px;
+}
+		.content{
+			max-width: 100%;
+			padding: 200px 80px 0;
+			color: cyan;
+
+		}
+		.content h1
+		{
+			font-size: 28px;
+		}
+		.content p{
+			font-size:20px;
+			padding: 25px 0;
+			font-weight: 300; 
+		}
+		
+		.content a{
+			display: inline-block;
+			padding: 15px 45px;
+			text-decoration: none;
+			color: #fff;
+			border-radius: 50px;
+		}
+		.content a.color1{
+			background-color: #ffc107;
+		}
+		.content a.color2{
+			background-color: #E91E63;
+		}
+
+		footer{
+			padding: 10px;
+			font-size: 17px;
+			font-weight: bold;
+			text-align: center;
+			background: #036eb7;
+			color: white;
+			font-family:Arial;
+			letter-spacing:1px; 
+			 
+		}
+	</style>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+		<div class="logo">
+			<img src="logo.jpg">
+		</div>
+		<div class="menu">
+			<ul>
+			<li><a href="homme.html" class="active">HOME</a></li>
+			<li><a href="about.html">Login</a></li>
+		</ul>	
+		</header> 
+		<div class="content"><h2><a href="gally.html" class="active"> shopkeeper</a>&nbsp &nbsp
+		<a href="gally.html" class="active">Product</a>&nbsp &nbsp
+	<a href="gally.html" class="active">Product IN</a>&nbsp &nbsp
+	<a href="gally.html" class="active">Product OUT</a>&nbsp &nbsp
+</h2>
+
+			<a href="gally.html" class="active">insert products</a>&nbsp &nbsp
+			<a href="gally.html" class="active">delete products</a>&nbsp &nbsp
+			<a href="gally.html" class="active">update products</a>&nbsp &nbsp
+			<a href="gally.html" class="active">report products</a>&nbsp &nbsp
+			<center><h1> 
+		<form action=""method="post"><table border="0">
+	<tr><td><input type="number"name="no"placeholder="enter account no"required/></td></tr>
+	<tr><td><input type="text"name="name"placeholder="enter names"required/></td></tr>
+	<tr><td><input type="number"name="phone"placeholder="enter phone number"required/></td></tr>
+	<tr><td><input type="TEXT"name="location"placeholder="enter location"required/></td></tr>
+	<tr><td><input type="submit"name="to"value="insert"/><br><br></td></tr>
+</td>
+</tr>
+</table>
+</form>
+		
+			
+	</div><br></h1>
+	<footer>
+	<center>All Right reserved &copy Infinite system 2022.Designed by olivis</center>
+</footer>
+	
+</body>
+</html>
